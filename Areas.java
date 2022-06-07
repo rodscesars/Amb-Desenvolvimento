@@ -7,7 +7,7 @@ public class Areas {
         Calculadora calc = new Calculadora();
         Scanner prompt = new Scanner(System.in);
         int opcao = -1;
-        double valor1, valor2, base, expoente, area;
+        double valor1, valor2, area;
         String msg1, msg2;
         
         do{
@@ -73,6 +73,6 @@ public class Areas {
                     break;
             }
         } while(true);
-        
+        prompt.close();        
     }
 }
