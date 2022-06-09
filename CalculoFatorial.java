@@ -10,12 +10,12 @@ public class Fatorial {
 
         System.out.println("Digite o número: ");
         nome = scanner.nextLine();
-        scanner.nextLine();
+        scanner.nextLine(); 
 
         double f = x;
 
         while(x > 1){
-            f= f*(x-1);
+            f= calculadora.multiplicacao(f,(calculadora.subtracao(x,1)));
             x--;
         }
         

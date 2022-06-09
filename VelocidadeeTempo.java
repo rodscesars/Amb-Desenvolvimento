@@ -22,7 +22,7 @@ public class CalculoVT {
         tempo = scanner.nextLine();
         scanner.nextLine(); 
 
-        double velocidade = distancia/tempo;
+        double velocidade = calculadora.divisao(distancia,tempo);
 
         System.out.println("A velocidade média é de"+ velocidade);
          scanner.close()
@@ -37,7 +37,7 @@ public class CalculoVT {
         tempo = scanner.nextLine();
         scanner.nextLine();
 
-        double  distancia= velocidade * tempo;
+        double  distancia= calculadora.multiplicacao(velocidade, tempo);
 
         System.out.println("A distância percorrida foi de "+ distancia);
         scanner.close();
