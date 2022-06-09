@@ -13,7 +13,7 @@ public class CalculoVT {
 
         System.out.println("Digite 1 para calcular a velocidade e 2 pra calcular distância ");
         opcao = scanner.nextLine();
-         // calculo para decobrir velocidade
+         // calculo para decobrir velocidade 
         if(opcao = 1){
         System.out.println("Digite a distância percorrida ");
         distancia = scanner.nextLine();

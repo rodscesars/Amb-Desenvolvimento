@@ -12,7 +12,7 @@ public class Fatorial {
         nome = scanner.nextLine();
         scanner.nextLine(); 
 
-        double f = x;
+        double f = x; 
 
         while(x > 1){
             f= calculadora.multiplicacao(f,(calculadora.subtracao(x,1)));
