@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalculoIdade {
+public class CalculoVT {
     public static void main(String[] args) {
         Calculadora calculadora = new Calculadora();
 
@@ -20,7 +20,7 @@ public class CalculoIdade {
 
         System.out.println("Digite o tempo final ");
         tempo = scanner.nextLine();
-        scanner.nextLine();
+        scanner.nextLine(); 
 
         double velocidade = distancia/tempo;
 
